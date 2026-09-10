@@ -1,0 +1,8 @@
+{
+  "forward": "-z",
+  "up": "y",
+  "rootRotationY": 0,
+  "height": 0.15,
+  "humanoid": false,
+  "facingBaked": true
+}

@@ -1,0 +1,73 @@
+{
+  "characters": {
+    "mets_player": {
+      "baseModel": "/var/games/game-20260910-772e7c71/assets/characters/mets_player/mets_player.glb",
+      "rigTaskId": "library:b627f0cd1206aa76690bafedf200907d59aafa15ce2087312c4bf9dbd4ae5544",
+      "animations": {
+        "ual1_Idle": "assets/characters/mets_player/anim/ual1_Idle.json"
+      }
+    },
+    "hitori": {
+      "baseModel": "/var/games/game-20260910-772e7c71/assets/characters/hitori/hitori.glb",
+      "rigTaskId": "library:9b7e035e966641881acc49bcad15fcacabd7103384f6c037e1a4efe4c8552121",
+      "animations": {}
+    },
+    "nijika": {
+      "baseModel": "/var/games/game-20260910-772e7c71/assets/characters/nijika/nijika.glb",
+      "rigTaskId": "library:0b13d7b6c1d1da2d235bf2cfdf222885257727df9dfa371ceb9a1dcd1ecb3cf2",
+      "animations": {
+        "ual1_Idle": "assets/characters/nijika/anim/ual1_Idle.json"
+      }
+    },
+    "ryo": {
+      "baseModel": "/var/games/game-20260910-772e7c71/assets/characters/ryo/ryo.glb",
+      "rigTaskId": "library:66b4405158f89de84c5ef3d0dd0eb6e9b47672c1a0a203243230439a184a3070",
+      "animations": {
+        "ual1_Idle": "assets/characters/ryo/anim/ual1_Idle.json"
+      }
+    },
+    "kita": {
+      "baseModel": "/var/games/game-20260910-772e7c71/assets/characters/kita/kita.glb",
+      "rigTaskId": "library:dcf7b74490aabea1a9f920e753e6eb09d2d07b34ba989810ab4e1943d81c5097",
+      "animations": {
+        "ual1_Idle": "assets/characters/kita/anim/ual1_Idle.json"
+      }
+    },
+    "ryo_band": {
+      "baseModel": "/var/games/game-20260910-772e7c71/assets/characters/ryo_band/ryo_band.glb",
+      "rigTaskId": "136eb029-ce64-4d31-8d8f-f4e77388d889",
+      "animations": {
+        "ual1_Idle": "assets/characters/ryo_band/anim/ual1_Idle.json",
+        "ual1_Sprint": "assets/characters/ryo_band/anim/ual1_Sprint.json"
+      }
+    },
+    "kita_band": {
+      "baseModel": "/var/games/game-20260910-772e7c71/assets/characters/kita_band/kita_band.glb",
+      "rigTaskId": "3292bc6f-e7e3-4d7e-96da-fbba49e7064a",
+      "animations": {
+        "ual1_Idle": "assets/characters/kita_band/anim/ual1_Idle.json",
+        "ual1_Sprint": "assets/characters/kita_band/anim/ual1_Sprint.json"
+      }
+    },
+    "nijika_band": {
+      "baseModel": "/var/games/game-20260910-772e7c71/assets/characters/nijika_band/nijika_band.glb",
+      "rigTaskId": "95c82b03-98f2-4ba7-aa98-4db982ae87a8",
+      "animations": {
+        "ual1_Idle": "assets/characters/nijika_band/anim/ual1_Idle.json",
+        "ual1_Sprint": "assets/characters/nijika_band/anim/ual1_Sprint.json"
+      }
+    },
+    "hitori_band": {
+      "baseModel": "/var/games/game-20260910-772e7c71/assets/characters/hitori_band/hitori_band.glb",
+      "rigTaskId": "455636e0-0e38-412a-ae87-26394a99c75e",
+      "animations": {
+        "ual1_Idle": "assets/characters/hitori_band/anim/ual1_Idle.json",
+        "ual1_Sprint": "assets/characters/hitori_band/anim/ual1_Sprint.json"
+      }
+    }
+  },
+  "props": {},
+  "environment": {},
+  "weapons": {},
+  "oriented": {}
+}
