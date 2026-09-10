@@ -1,0 +1,7 @@
+{
+  "forward": "-z",
+  "up": "y",
+  "rootRotationY": 3.141592653589793,
+  "height": 1.65,
+  "humanoid": true
+}

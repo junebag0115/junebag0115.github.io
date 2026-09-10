@@ -1,0 +1,246 @@
+{
+  "version": 1,
+  "assets": {
+    "assets/audio/ambient/ambient_baseball_stadium_stadium_crowd.mp3": {
+      "tool": "mcp__game-audio__generate_audio_batch",
+      "primary_prompt": "Large lively New York baseball stadium crowd ambience, warm outdoor crowd murmur with scattered enthusiastic cheers, no speech or music",
+      "raw_input": {
+        "type": "ambient",
+        "name": "stadium_crowd",
+        "environment": "baseball_stadium",
+        "description": "Large lively New York baseball stadium crowd ambience, warm outdoor crowd murmur with scattered enthusiastic cheers, no speech or music",
+        "duration": 25
+      },
+      "tool_use_id": "call_sQswyW3r4BW2TtUrpyRjHMtn",
+      "updated_at": "2026-09-10T04:36:23.909187"
+    },
+    "assets/audio/sfx/player/player_bat_crack.mp3": {
+      "tool": "mcp__game-audio__generate_audio_batch",
+      "primary_prompt": "Crisp satisfying wooden baseball bat crack hitting a fast baseball, sharp bright contact, outdoor ballpark",
+      "raw_input": {
+        "type": "sfx",
+        "name": "bat_crack",
+        "category": "player",
+        "description": "Crisp satisfying wooden baseball bat crack hitting a fast baseball, sharp bright contact, outdoor ballpark",
+        "duration": 0.6
+      },
+      "tool_use_id": "call_sQswyW3r4BW2TtUrpyRjHMtn",
+      "updated_at": "2026-09-10T04:36:23.909187"
+    },
+    "assets/audio/sfx/environment/environment_crowd_cheer.mp3": {
+      "tool": "mcp__game-audio__generate_audio_batch",
+      "primary_prompt": "Baseball stadium crowd suddenly erupting in loud joyful cheers after a big hit, applause and whistles",
+      "raw_input": {
+        "type": "sfx",
+        "name": "crowd_cheer",
+        "category": "environment",
+        "description": "Baseball stadium crowd suddenly erupting in loud joyful cheers after a big hit, applause and whistles",
+        "duration": 5
+      },
+      "tool_use_id": "call_sQswyW3r4BW2TtUrpyRjHMtn",
+      "updated_at": "2026-09-10T04:36:23.909187"
+    },
+    "assets/characters/hitori/hitori.glb": {
+      "tool": "mcp__game-3d-models__generate_characters_batch",
+      "primary_prompt": "Hitori Gotoh Bocchi the Rock anime girl with long straight pastel pink hair blue and yellow square hair clips, pink zip up tracksuit jacket, short dark pleated skirt black shoes, chibi stylized",
+      "raw_input": {
+        "name": "hitori",
+        "prompt": "Hitori Gotoh Bocchi the Rock anime girl with long straight pastel pink hair blue and yellow square hair clips, pink zip up tracksuit jacket, short dark pleated skirt black shoes, chibi stylized",
+        "imageUrl": "",
+        "imagePath": "",
+        "multiviewUrls": {
+          "front": "",
+          "back": "",
+          "left": "",
+          "right": ""
+        },
+        "expandToTpose": false,
+        "style": "anime",
+        "referenceImage": ""
+      },
+      "tool_use_id": "call_lni3WeLPWhlgFNkIcTHI6HKh",
+      "updated_at": "2026-09-10T04:37:26.860169"
+    },
+    "assets/characters/mets_player/mets_player.glb": {
+      "tool": "mcp__game-3d-models__generate_characters_batch",
+      "primary_prompt": "New York Mets baseball player white pinstripe uniform blue cap with orange emblem blue belt blue sleeves baseball athlete stylized",
+      "raw_input": {
+        "name": "mets_player",
+        "prompt": "New York Mets baseball player white pinstripe uniform blue cap with orange emblem blue belt blue sleeves baseball athlete stylized",
+        "imageUrl": "",
+        "imagePath": "",
+        "multiviewUrls": {
+          "front": "",
+          "back": "",
+          "left": "",
+          "right": ""
+        },
+        "expandToTpose": false,
+        "style": "stylized",
+        "referenceImage": ""
+      },
+      "tool_use_id": "call_lni3WeLPWhlgFNkIcTHI6HKh",
+      "updated_at": "2026-09-10T04:37:26.860169"
+    },
+    "assets/characters/kita/kita.glb": {
+      "tool": "mcp__game-3d-models__generate_characters_batch",
+      "primary_prompt": "Kita Ikuyo Bocchi the Rock anime girl vivid red long hair, yellow eyes, dark school jacket white shirt red ribbon short pleated skirt",
+      "raw_input": {
+        "name": "kita",
+        "prompt": "Kita Ikuyo Bocchi the Rock anime girl vivid red long hair, yellow eyes, dark school jacket white shirt red ribbon short pleated skirt",
+        "imageUrl": "",
+        "imagePath": "",
+        "multiviewUrls": {
+          "front": "",
+          "back": "",
+          "left": "",
+          "right": ""
+        },
+        "expandToTpose": false,
+        "style": "anime",
+        "referenceImage": ""
+      },
+      "tool_use_id": "call_MthTx4cFWzOO1YmPJdcakBR4",
+      "updated_at": "2026-09-10T04:38:28.795189"
+    },
+    "assets/characters/ryo/ryo.glb": {
+      "tool": "mcp__game-3d-models__generate_characters_batch",
+      "primary_prompt": "Ryo Yamada Bocchi the Rock anime girl short dark blue bob hairstyle yellow eyes dark navy school uniform white shirt pleated gray skirt",
+      "raw_input": {
+        "name": "ryo",
+        "prompt": "Ryo Yamada Bocchi the Rock anime girl short dark blue bob hairstyle yellow eyes dark navy school uniform white shirt pleated gray skirt",
+        "imageUrl": "",
+        "imagePath": "",
+        "multiviewUrls": {
+          "front": "",
+          "back": "",
+          "left": "",
+          "right": ""
+        },
+        "expandToTpose": false,
+        "style": "anime",
+        "referenceImage": ""
+      },
+      "tool_use_id": "call_MthTx4cFWzOO1YmPJdcakBR4",
+      "updated_at": "2026-09-10T04:38:28.795189"
+    },
+    "assets/characters/nijika/nijika.glb": {
+      "tool": "mcp__game-3d-models__generate_characters_batch",
+      "primary_prompt": "Nijika Ijichi Bocchi the Rock anime girl blonde yellow hair side ponytail red eyes black shirt short red skirt",
+      "raw_input": {
+        "name": "nijika",
+        "prompt": "Nijika Ijichi Bocchi the Rock anime girl blonde yellow hair side ponytail red eyes black shirt short red skirt",
+        "imageUrl": "",
+        "imagePath": "",
+        "multiviewUrls": {
+          "front": "",
+          "back": "",
+          "left": "",
+          "right": ""
+        },
+        "expandToTpose": false,
+        "style": "anime",
+        "referenceImage": ""
+      },
+      "tool_use_id": "call_MthTx4cFWzOO1YmPJdcakBR4",
+      "updated_at": "2026-09-10T04:38:28.795189"
+    },
+    "assets/characters/hitori_band/hitori_band.glb": {
+      "tool": "mcp__game-3d-models__generate_characters_batch",
+      "primary_prompt": "Full-body head-to-toe Hitori Gotoh from Bocchi the Rock, standing upright empty handed T-pose. Faithful clean anime character proportions, NOT chibi. Very long straight saturated pastel pink hair down to hips, long pointed bangs, turquoise blue eyes, small blue and yellow square clips at the right temple. Loose BLACK short sleeved Kessoku Band concert T-shirt with a small white abstract loop and white Japanese band lettering on chest. Simple charcoal pleated skirt, black ankle socks and white low-top sneakers. No jacket, no pink tracksuit. Smooth anime face, soft cel-like shading, readable hair strands. Match the Re Re movie poster concert outfit.",
+      "raw_input": {
+        "name": "hitori_band",
+        "prompt": "Full-body head-to-toe Hitori Gotoh from Bocchi the Rock, standing upright empty handed T-pose. Faithful clean anime character proportions, NOT chibi. Very long straight saturated pastel pink hair down to hips, long pointed bangs, turquoise blue eyes, small blue and yellow square clips at the right temple. Loose BLACK short sleeved Kessoku Band concert T-shirt with a small white abstract loop and white Japanese band lettering on chest. Simple charcoal pleated skirt, black ankle socks and white low-top sneakers. No jacket, no pink tracksuit. Smooth anime face, soft cel-like shading, readable hair strands. Match the Re Re movie poster concert outfit.",
+        "imageUrl": "",
+        "imagePath": "",
+        "multiviewUrls": {
+          "front": "",
+          "back": "",
+          "left": "",
+          "right": ""
+        },
+        "expandToTpose": false,
+        "style": "anime",
+        "referenceImage": ""
+      },
+      "tool_use_id": "call_VKmKlwxbq6RJXpic99vr77hr",
+      "updated_at": "2026-09-10T05:05:39.834529"
+    },
+    "assets/characters/kita_band/kita_band.glb": {
+      "tool": "mcp__game-3d-models__generate_characters_batch",
+      "primary_prompt": "Full-body head-to-toe Ikuyo Kita from Bocchi the Rock standing upright empty handed T-pose. Faithful clean anime proportions, NOT chibi. Vivid red shoulder length hair with little outward layered tips and long side bangs, yellow green eyes and cheerful face. Loose BLACK short sleeve Kessoku Band concert T-shirt with small white abstract loop and white Japanese band lettering on chest. Simple charcoal pleated skirt, black ankle socks and white low top sneakers. No school blazer, no tie, no uniform jacket. Smooth anime face, soft cel-like shading, clear saturated hair. Match the Re Re movie poster concert outfit.",
+      "raw_input": {
+        "name": "kita_band",
+        "prompt": "Full-body head-to-toe Ikuyo Kita from Bocchi the Rock standing upright empty handed T-pose. Faithful clean anime proportions, NOT chibi. Vivid red shoulder length hair with little outward layered tips and long side bangs, yellow green eyes and cheerful face. Loose BLACK short sleeve Kessoku Band concert T-shirt with small white abstract loop and white Japanese band lettering on chest. Simple charcoal pleated skirt, black ankle socks and white low top sneakers. No school blazer, no tie, no uniform jacket. Smooth anime face, soft cel-like shading, clear saturated hair. Match the Re Re movie poster concert outfit.",
+        "imageUrl": "",
+        "imagePath": "",
+        "multiviewUrls": {
+          "front": "",
+          "back": "",
+          "left": "",
+          "right": ""
+        },
+        "expandToTpose": false,
+        "style": "anime",
+        "referenceImage": ""
+      },
+      "tool_use_id": "call_VKmKlwxbq6RJXpic99vr77hr",
+      "updated_at": "2026-09-10T05:05:39.834529"
+    },
+    "assets/characters/ryo_band/ryo_band.glb": {
+      "tool": "mcp__game-3d-models__generate_characters_batch",
+      "primary_prompt": "Full-body head-to-toe Ryo Yamada from Bocchi the Rock standing upright empty handed T-pose. Faithful clean anime proportions NOT chibi. Short deep blue bob hairstyle with separated pointed bangs and asymmetrical ends, golden yellow eyes, calm expression. Loose BLACK short sleeve Kessoku Band concert T-shirt with small white abstract loop and white Japanese band lettering on chest, worn over a gray long sleeve undershirt visible on both forearms. Simple charcoal pleated skirt, black socks and white low top sneakers. No school blazer. Smooth anime face soft cel-like shading. Match Re Re movie poster concert outfit.",
+      "raw_input": {
+        "name": "ryo_band",
+        "prompt": "Full-body head-to-toe Ryo Yamada from Bocchi the Rock standing upright empty handed T-pose. Faithful clean anime proportions NOT chibi. Short deep blue bob hairstyle with separated pointed bangs and asymmetrical ends, golden yellow eyes, calm expression. Loose BLACK short sleeve Kessoku Band concert T-shirt with small white abstract loop and white Japanese band lettering on chest, worn over a gray long sleeve undershirt visible on both forearms. Simple charcoal pleated skirt, black socks and white low top sneakers. No school blazer. Smooth anime face soft cel-like shading. Match Re Re movie poster concert outfit.",
+        "imageUrl": "",
+        "imagePath": "",
+        "multiviewUrls": {
+          "front": "",
+          "back": "",
+          "left": "",
+          "right": ""
+        },
+        "expandToTpose": false,
+        "style": "anime",
+        "referenceImage": ""
+      },
+      "tool_use_id": "call_VKmKlwxbq6RJXpic99vr77hr",
+      "updated_at": "2026-09-10T05:05:39.834529"
+    },
+    "assets/characters/nijika_band/nijika_band.glb": {
+      "tool": "mcp__game-3d-models__generate_characters_batch",
+      "primary_prompt": "Full-body head-to-toe Nijika Ijichi from Bocchi the Rock standing upright empty handed T-pose. Faithful clean anime proportions NOT chibi. Golden blonde hair in prominent high side ponytail, pointed triangular ahoge, warm red orange eyes, cheerful expression. Loose BLACK short sleeve Kessoku Band concert T-shirt with small white abstract loop and white Japanese band lettering on chest. Very large burgundy RED fabric bow tied around neck, pale tan suspenders. Charcoal skirt, black ankle socks white low top sneakers. No instruments or objects. Smooth anime face soft cel-like shading. Match Re Re movie poster concert outfit.",
+      "raw_input": {
+        "name": "nijika_band",
+        "prompt": "Full-body head-to-toe Nijika Ijichi from Bocchi the Rock standing upright empty handed T-pose. Faithful clean anime proportions NOT chibi. Golden blonde hair in prominent high side ponytail, pointed triangular ahoge, warm red orange eyes, cheerful expression. Loose BLACK short sleeve Kessoku Band concert T-shirt with small white abstract loop and white Japanese band lettering on chest. Very large burgundy RED fabric bow tied around neck, pale tan suspenders. Charcoal skirt, black ankle socks white low top sneakers. No instruments or objects. Smooth anime face soft cel-like shading. Match Re Re movie poster concert outfit.",
+        "imageUrl": "",
+        "imagePath": "",
+        "multiviewUrls": {
+          "front": "",
+          "back": "",
+          "left": "",
+          "right": ""
+        },
+        "expandToTpose": false,
+        "style": "anime",
+        "referenceImage": ""
+      },
+      "tool_use_id": "call_VKmKlwxbq6RJXpic99vr77hr",
+      "updated_at": "2026-09-10T05:05:39.834529"
+    },
+    "assets/audio/sfx/player/player_bright_bat_contact.mp3": {
+      "tool": "mcp__game-audio__generate_audio_batch",
+      "primary_prompt": "Single clean bright energetic baseball bat contact, snappy woody CRACK with crisp high frequency click and short satisfying resonant pop, dry close microphone, lively arcade baseball feel, no crowd no voice no music no long tail, immediate attack",
+      "raw_input": {
+        "type": "sfx",
+        "name": "bright_bat_contact",
+        "category": "player",
+        "description": "Single clean bright energetic baseball bat contact, snappy woody CRACK with crisp high frequency click and short satisfying resonant pop, dry close microphone, lively arcade baseball feel, no crowd no voice no music no long tail, immediate attack",
+        "duration": 0.6
+      },
+      "tool_use_id": "call_ESiliWOjiNi4iIRJV40Iw6Wj",
+      "updated_at": "2026-09-10T19:32:08.479747"
+    }
+  }
+}

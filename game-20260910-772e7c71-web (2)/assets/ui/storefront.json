@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "generated_at": "2026-09-10T05:28:53Z",
+  "tagline": "Step up with Kessoku Band and time your swing against the Mets in a three-inning ballpark challenge.",
+  "description": "Take the batter\u2019s box at Queens Ballpark as Kessoku Band faces the New York Mets. The three-inning challenge pairs a sunlit baseball diamond and packed stands with a lineup featuring Hitori, Kita, Ryo, and Nijika.\n\nWatch the pitch-timing meter and aim for the highlighted swing zone. Press Space or tap the big **SWING!** button to hit, or let the ball pass. The on-screen scoreboard tracks runs, balls, strikes, outs, and the current inning, while a base diagram shows runners on base.\n\nPastel city buildings frame the stadium, with navy-and-orange panels and colorful character portraits surrounding the action.",
+  "theme": {
+    "color_theme": "sunset",
+    "font_family": "modern",
+    "border_radius": "medium"
+  },
+  "category_slug": "sports",
+  "tag_slugs": [
+    "baseball",
+    "timing",
+    "anime",
+    "arcade"
+  ]
+}

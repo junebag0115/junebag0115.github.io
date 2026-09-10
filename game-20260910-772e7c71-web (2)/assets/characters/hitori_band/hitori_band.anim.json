@@ -1,0 +1,6 @@
+{
+  "clips": {
+    "ual1_Idle": "assets/characters/hitori_band/anim/ual1_Idle.json",
+    "ual1_Sprint": "assets/characters/hitori_band/anim/ual1_Sprint.json"
+  }
+}
