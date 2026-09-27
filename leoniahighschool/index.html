@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Yacht Dice</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main class="app">
+  <section id="menu" class="screen active menu-screen">
+    <div class="menu-card">
+      <p class="eyebrow">作戦開始 · DICE CAMPAIGN</p>
+      <img class="menu-logo" src="assets/ui/yacht_dice_logo.png" alt="YACHT DICE">
+      <p class="muted">Roll your fate · 13 turns to claim victory</p>
+      <p id="soloBestDisplay" class="solo-best">Solo Best: —</p>
+      <button id="soloBtn" class="primary">Solo</button>
+      <button id="onlineBtn">Online 1v1</button>
+    </div>
+  </section>
+
+  <section id="online" class="screen menu-screen">
+    <div class="menu-card">
+      <p class="eyebrow">ONLINE 1 VS 1</p>
+      <h2>Online Match</h2>
+      <div id="setupWarn" class="warn hidden">Firebase setup is required.</div>
+      <label>Your Name<input id="nameInput" maxlength="16" value="Player"></label>
+      <button id="createBtn" class="primary">Create Room</button>
+      <button id="toggleJoinBtn">Join with Code</button>
+      <div id="joinBox" class="hidden">
+        <label>Room Code<input id="codeInput" maxlength="6" placeholder="ABC123"></label>
+        <button id="joinBtn" class="primary">Join</button>
+      </div>
+      <button id="onlineBackBtn">Back</button>
+      <p id="onlineMsg" class="muted"></p>
+    </div>
+  </section>
+
+  <section id="lobby" class="screen menu-screen">
+    <div class="menu-card">
+      <p class="eyebrow">ROOM</p>
+      <h2>Room Code</h2>
+      <div id="roomCode" class="room-code">------</div>
+      <p class="muted">Waiting for another player...</p>
+      <div id="lobbyPlayers"></div>
+      <button id="leaveBtn">Leave Room</button>
+    </div>
+  </section>
+
+  <section id="game" class="screen game-shell">
+    <header class="game-topbar">
+      <button id="menuBtn">Menu</button>
+      <div class="game-title">
+        <div class="game-brand"><img class="top-logo" src="assets/ui/yacht_dice_logo.png" alt="YACHT DICE"></div>
+        <p id="modeLabel" class="eyebrow">SOLO</p>
+        <h2 id="turnLabel">Turn</h2>
+      </div>
+      <div class="top-actions">
+        <span id="rollInfo" class="muted"></span>
+        <button id="musicToggle" type="button" aria-label="Toggle background music" aria-pressed="true">Music: On</button>
+        <button id="restartBtn">Restart</button>
+      </div>
+    </header>
+
+    <div class="game-layout">
+      <aside class="score-panel">
+        <div class="panel-header">
+          <span>SCORE CARD</span>
+          <strong id="turnCounter">0 / 13</strong>
+        </div>
+        <div id="boards" class="boards"></div>
+      </aside>
+
+      <section class="center-zone">
+        <div class="tray-frame">
+          <div class="tray-inner" id="tray">
+            <div class="tray-title">DICE TRAY</div>
+            <div id="diceLayer" class="dice-layer"></div>
+          </div>
+        </div>
+
+        <div class="hold-strip">
+          <div class="hold-label">HOLD</div>
+          <div id="holdSlots" class="hold-slots"></div>
+        </div>
+
+        <div class="roll-area">
+          <button id="rollBtn" class="roll-button">ROLL!</button>
+        </div>
+      </section>
+
+      <aside class="character-panel">
+        <div class="character-stage">
+          <div class="character-visual">
+            <div class="character-backdrop"></div>
+            <div class="reaction-bubble" id="reactionBubble" aria-live="polite"></div>
+            <img id="characterImage" class="character-image" src="assets/character/default_hq.png" alt="Character in a neutral standing pose">
+            <div class="character-nameplate">Levi Ackerman, <span lang="ja">リヴァイ・アッカーマン</span></div>
+          </div>
+        </div>
+      </aside>
+    </div>
+
+    <section id="result" class="result-modal hidden">
+      <div class="result-card">
+        <h2 id="resultTitle"></h2>
+        <p id="resultText"></p>
+        <button id="resultRestartBtn" class="primary">Play Again</button>
+      </div>
+    </section>
+  </section>
+</main>
+
+<script src="firebase-config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
